@@ -1,2 +1,48 @@
 <html>
+<head>
+
+    <title>Rushabh</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.4/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+    <script src="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.4/js/bootstrap.min.js"></script>
+    <link rel="stylesheet" type="text/css" href="sidebar.css">
+
+</head>
+<body>
+	<div id="wrapper">
+
+		<!--sidebar -->
+		<div id="sidebar-wrapper">
+			<ul>
+				<li><a href="#">Account</a></li>
+				<li><a href="#">settings</a></li>
+				<li><a href="#">Logout</a></li>
+			</ul>
+		</div>
+
+		<!--page content-->
+		<div id="page-content-wrapper">
+			<div class="container-fluid">
+				<div class="row">
+					<div class="col-lg-12">
+						<a href="#" class="btn btn-success" id="menu-toggle">Toggle Menu</a>
+						<h1>Side bar layout are cool</h1>
+						<p>I love coding! I love coding! I love coding! I love coding! I love coding! I love coding! I love coding! I love coding! I love coding! I love coding! I love coding! I love coding! I love coding! I love coding! I love coding! I love coding! I love coding! I love coding! I love coding! I love coding! I love coding! I love coding! I love coding! I love coding! I love coding! I love coding! I love coding! I love coding! I love coding! </p>
+					</div>
+				</div>
+			</div>
+		</div>
+
+		<!-- Menu toggle script-->
+		<script>
+			$("#menu-toggle").click( function (e){
+				e.preventDefault();
+				$("#wrapper").toggleClass("menuDisplayed");
+
+			});
+		</script>
+
+</body>
 </html>
