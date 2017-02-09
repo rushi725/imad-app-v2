@@ -13,6 +13,10 @@ app.get('/Rushabh', function (req, res) {
   res.sendFile(path.join(__dirname, 'ui', 'Rushabh.html'));
 });
 
+app.get('/ui/sidebar.css', function (req, res) {
+  res.sendFile(path.join(__dirname, 'ui', 'sidebar.css'));
+});
+
 app.get('/ui/style.css', function (req, res) {
   res.sendFile(path.join(__dirname, 'ui', 'style.css'));
 });
