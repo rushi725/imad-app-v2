@@ -1,6 +1,6 @@
 console.log('Loaded!');
 var wall = document.getElementById('mwall');
-wall.onClick = function(){
+wall.onClick = function() {
     var interval = setInterval(moveRight,100);
 };
 var marginLeft = 0;
