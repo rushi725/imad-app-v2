@@ -1,5 +1,5 @@
 console.log('Loaded!');
-var wall = document.getElementById('mwall');
+var wall = document.getElementById('mwell');
 wall.onClick = function() {
     var interval = setInterval(moveRight,100);
 };
