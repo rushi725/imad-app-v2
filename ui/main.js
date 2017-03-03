@@ -37,7 +37,7 @@ submit.onclick = function() {
     };
     //make the request
     var name = nameInput.value;
-    request.open('GET','http://rushi725.imad.hasura-app.io/submit-name?name='+ name, true);
+    request.open('GET', 'http://rushi725.imad.hasura-app.io/submit-name?name=' + name, true);
     request.send(null);
   
  
