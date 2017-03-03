@@ -12,7 +12,7 @@ function moveRight(){
 
 //submit button
 var nameInput = document.getElementById('name');
-var name = nameInput.value;
+
 var submit = document.getElementById('submit_btn');
 submit.onclick = function(){
     //make a request a server and send the name 
@@ -36,6 +36,7 @@ submit.onclick = function(){
         }
     };
     //make the request
+    var name = nameInput.value;
     request.open('GET','http://rushi725.imad.hasura-app.io/submit-name/?name=' + name, true);
     request.send(null);
   
